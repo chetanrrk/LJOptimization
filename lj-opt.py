@@ -764,7 +764,7 @@ def writeLiquidMaster(jobNum,nodes=20):
     print>>fout,"#SBATCH -e liq_master"+str(jobNum)+".err"	
     print>>fout,"export SCRATCH=/lcrc/globalscratch/rupakhetic/$SLURM_JOB_ID/liquid"
     print>>fout,"export CWD=`pwd`"
-    print>>fout,"export codeDir=/lcrc/project/Drude/chetan/workspace/ljopt-tests/drude_lj_prod/optCode/"
+    print>>fout,"export codeDir=../../liq_code"
     print>>fout,"mkdir -p $SCRATCH"
     print>>fout,"cp $codeDir/LiqJobMPI.py $SCRATCH"
     print>>fout,"cd $SCRATCH\n"
