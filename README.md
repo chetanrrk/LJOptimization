@@ -2,7 +2,7 @@
 
 Contains scripts to optimize the LJ parameters
 
-##Content of the repo:
+#Content of the repo:
 
 1) halo_code: code to compute gradients for the halogens containing molecules
 
@@ -34,7 +34,7 @@ Contains scripts to optimize the LJ parameters
 
 	d) training.xlsx: spread sheet containing molecules and computed properties for training
 
-##before running you need to:
+#before running you need to:
 
 1) git clone https://github.com/chetanrrk/LJOptimization/
 
