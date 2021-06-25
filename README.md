@@ -39,7 +39,7 @@ Contains scripts to optimize the LJ parameters
 1) git clone https://github.com/chetanrrk/LJOptimization/
 
 2) the working directory must contain input data (check 3-6) and master script 'lj-opt.py'
-define training molecules in the exp_set.txt (see 'exp_set.txt' for example) with molecule id same as defined in the experimental data file (see 'allparameters.dat'
+define training molecules in the exp_set.txt (see 'exp_set.txt' for example) with molecule id same as defined in the experimental data file (see 'allparameters.dat')
 
 3) define you initial emin and rmin in the 'vdw-tofit.txt' file (see 'vdw-to-fit.txt' for example)
 
