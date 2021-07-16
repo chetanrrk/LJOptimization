@@ -1,8 +1,9 @@
+  Index Name ID Mass Density Temp HVap HFE             
    1 1112_tetrachloroethane m_001 167.8482 1.5316 298.15 10.9226 -1.28   
    2 111_trichloroethane m_002 133.4035 1.33 298.15 7.76769 -0.19   
-   3 111_trifluoro_222_trimethoxyethane m_003 106.1204 1.252 298.15 0 3.12   
+   3 111_trifluoro_222_trimethoxyethane m_003 106.1204 1.252 298.15 nan 3.12   
    4 111_trifluoropropan_2_ol m_004 114.0667 1.2632 298.15 10.7075 -4.16   
-   5 111_trimethoxyethane m_005 120.148 0.9438 298.15 0 -4.42   
+   5 111_trimethoxyethane m_005 120.148 0.9438 298.15 nan -4.42   
    6 1122_tetrachloroethane m_006 167.8482 1.5853 298.15 11.1995 -2.47   
    7 112_trichloro_122_trifluoroethane m_007 187.3747 1.5635 298.15 6.78776 1.77   
    8 112_trichloroethane m_008 133.4035 1.431 298.15 9.60803 -1.99   
@@ -11,11 +12,11 @@
    11 11_dichloroethene m_011 96.9428 1.2055 298.15 6.45793 0.25   
    12 11_diethoxyethane m_012 118.176 0.8254 293.15 10.0498 -3.28   
    13 11_difluoroethane m_013 66.0502 1.041 234.15 5.36688 -0.11   
-   14 1234_tetrachlorobenzene m_014 215.892 1.734 298.15 0 -1.42   
-   15 1235_tetrachlorobenzene m_015 215.892 1.734 298.15 0 -2.55   
-   16 123_trichlorobenzene m_016 181.447 1.453 298.15 0 -2.13   
+   14 1234_tetrachlorobenzene m_014 215.892 1.734 298.15 nan -1.42   
+   15 1235_tetrachlorobenzene m_015 215.892 1.734 298.15 nan -2.55   
+   16 123_trichlorobenzene m_016 181.447 1.453 298.15 nan -2.13   
    17 123_trimethylbenzene m_017 120.194 0.891 298.15 11.7113 -1.21   
-   18 1245_tetrachlorobenzene m_018 215.892 1.734 298.15 0 -0.44   
+   18 1245_tetrachlorobenzene m_018 215.892 1.734 298.15 nan -0.44   
    19 124_trichlorobenzene m_019 181.4463 1.459 298.15 13.3214 -1.12   
    20 124_trimethylbenzene m_020 120.194 0.872 298.15 11.4723 -0.86   
    21 12_diacetoxyethane m_021 146.143 1.101 298.15 14.5793 -6.34   
@@ -47,16 +48,16 @@
    47 1_chloro_222_trifluoroethane m_047 118.4853 1.3667 298.15 5.3744 0.06   
    48 1_chlorobutane m_048 92.5675 0.88 298.15 8.00669 -0.16   
    49 1_chloroheptane m_049 134.6476 0.8717 298.15 11.2333 0.29   
-   50 1_chlorohexane m_050 120.6209 0.8738 298.15 10.1338 0   
+   50 1_chlorohexane m_050 120.6209 0.8738 298.15 10.1338 nan   
    51 1_chloropentane m_051 106.5942 0.878 298.15 9.20172 -0.07   
    52 1_chloropropane m_052 78.5408 0.882 298.15 6.93117 -0.33   
    53 1_ethylnaphthalene m_053 156.227 1.004 298.15 15.246 -2.4   
    59 1_methylcyclohexene m_059 96.172 0.8066 298.15 8.96272 0.67   
-   60 1_methyl_imidazole m_060 82.1042 1.0325 293.15 0 -8.41   
+   60 1_methyl_imidazole m_060 82.1042 1.0325 293.15 nan -8.41   
    61 1_methylnaphthalene m_061 142.201 1.0202 293.15 14.2525 -2.44   
    62 1_methyl_pyrrole m_062 81.1162 0.8504 343.15 9.08222 -2.89   
    63 1_naphthol m_063 144.164 1.0989 372.15 13.9818 -7.67   
-   64 1_naphthylamine m_064 143.1857 1.114 392.15 0 -7.28   
+   64 1_naphthylamine m_064 143.1857 1.114 392.15 nan -7.28   
    65 1_nitrobutane m_065 103.1203 0.97 298.15 11.2333 -3.09   
    66 1_nitropentane m_066 117.147 0.947 298.15 12.2205 -2.82   
    67 1_nitropropane m_067 89.0936 0.9961 298.15 10.4924 -3.34   
@@ -87,23 +88,23 @@
    92 2_bromo_2_methylpropane m_092 137.0188 1.2132 298.15 7.60038 0.84   
    93 2_bromopropane m_093 122.9921 1.307 298.15 7.27089 -0.48   
    94 2_butoxyethanol m_094 118.176 0.8291 373.15 12.2371 -6.25   
-   95 2_chloro_111_trimethoxyethane m_095 154.592 1.147 298.15 0 -1.08   
+   95 2_chloro_111_trimethoxyethane m_095 154.592 1.147 298.15 nan -1.08   
    96 2_chloro_2_methylpropane m_096 92.5675 0.836 298.15 6.83556 1.09   
    97 2_chloroaniline m_097 127.5716 1.213 298.15 13.7074 -4.91   
-   98 2_chlorobutane m_098 92.5675 0.868 298.15 7.52868 0   
+   98 2_chlorobutane m_098 92.5675 0.868 298.15 7.52868 nan   
    99 2_chlorophenol m_099 128.5563 1.255 298.15 11.7949 -4.55   
    100 2_chloropropane m_100 78.5408 0.856 298.15 6.53576 -0.25   
    101 2_chloropyridine m_101 113.5449 1.193 298.15 12.1893 -4.39   
    102 2_chlorotoluene m_102 126.5836 1.077 298.15 10.827 -1.14   
    103 2_ethoxyethanol m_103 90.122 0.9253 298.15 11.5201 -6.69   
-   104 2_ethylpyrazine m_104 108.1416 0.984 298.15 0 -5.45   
+   104 2_ethylpyrazine m_104 108.1416 0.984 298.15 nan -5.45   
    105 2_ethylpyridine m_105 107.1536 0.8911 338.15 10.4446 -4.33   
    106 2_ethyltoluene m_106 120.194 0.877 298.15 11.21 -1.04   
-   107 2_fluorophenol m_107 112.102 1.12 298.15 0 -5.29   
-   110 2_isobutylpyrazine m_110 136.195 0.99 298.15 0 -5.04 
-   111 2_methoxy_111_trimethoxyethane m_111 150.172 9 298.15 0 -5.73
+   107 2_fluorophenol m_107 112.102 1.12 298.15 nan -5.29   
+   110 2_isobutylpyrazine m_110 136.195 0.99 298.15 nan -5.04 
+   111 2_methoxy_111_trimethoxyethane m_111 150.172 nan 298.15 nan -5.73
    112 2_methoxyaniline m_112 123.153 1.0923 293.15 13.7428 -6.12
-   113 2_methoxyethanamine m_113 75.1102 0.829 298.15 0    
+   113 2_methoxyethanamine m_113 75.1102 0.829 298.15 nan    
    114 2_methoxyethanol m_114 76.094 0.96 298.15 10.8031 -6.76   
    115 2_methoxyphenol m_115 124.134 1.0363 393.15 11.9981 -5.57   
    116 2_methyl_but_2_ene m_116 70.134 0.657 298.15 6.47706 1.31   
@@ -125,73 +126,73 @@
    132 2_methyltetrahydrofuran m_132 86.13 0.85 298.15 8.1262 -3.3   
    133 2_methylthiophene m_133 98.1675 1.014 298.15 9.24952 -1.38   
    134 2_naphthol m_134 144.164 1.28 298.15 18.21 -8.11   
-   135 2_naphthylamine m_135 143.1857 9 298.15 0 -7.47
-   136 2_nitroaniline m_136 138.1244 1.44 298.15 0 -7.37   
-   137 2_nitrophenol m_137 139.1091 9 298.15 0 -4.58   
+   135 2_naphthylamine m_135 143.1857 nan 298.15 nan -7.47
+   136 2_nitroaniline m_136 138.1244 1.44 298.15 nan -7.37   
+   137 2_nitrophenol m_137 139.1091 nan 298.15 nan -4.58   
    138 2_nitropropane m_138 89.0936 0.9812 299.15 9.77533 -3.13   
    139 2_nitrotoluene m_139 137.1364 1.1581 298.15 14.1252 -3.58   
    140 2_phenylethanol m_140 122.16 1.015 298.15 16.348 -6.79   
    141 2_propoxyethanol m_141 104.146 0.906 298.15 12.4522 -6.4   
-   142 333_trimethoxypropionitrile m_142 145.1571 1.036 298.15 0 -6.4   
+   142 333_trimethoxypropionitrile m_142 145.1571 1.036 298.15 nan -6.4   
    143 33_dimethylbutan_2_one m_143 100.156 0.801 298.15 9.15392 -3.11   
    144 33_dimethylpentane m_144 100.202 0.687 298.15 7.8896 2.56   
    145 34_dimethylphenol m_145 122.16 0.8993 459.15 13.3243 -6.5   
    146 34_dimethylpyridine m_146 107.1536 0.928 328.15 11.6635 -5.22   
    147 35_dimethylphenol m_147 122.16 0.8938 442.15 13.217 -6.27   
    148 35_dimethylpyridine m_148 107.1536 0.9378 298.15 11.6396 -4.84   
-   149 3_acetylpyridine m_149 121.137 1.1023 298.15 0 -8.26   
+   149 3_acetylpyridine m_149 121.137 1.1023 298.15 nan -8.26   
    150 3_chloroaniline m_150 127.5716 1.211 298.15 14.5793 -5.82   
    151 3_chlorophenol m_151 128.5563 1.2308 332.15 12.6912 -6.62   
    152 3_chloroprop_1_ene m_152 76.5248 0.9296 301.15 7.17017 -0.57   
    153 3_chloropyridine m_153 113.5449 1.194 298.15 11.4484 -4.01   
-   154 3_cyanophenol m_154 119.121 1.22 298.15 0 -9.65   
-   155 3_cyanopyridine m_155 104.1096 1.074 322.9 0 -6.75   
+   154 3_cyanophenol m_154 119.121 1.22 298.15 nan -9.65   
+   155 3_cyanopyridine m_155 104.1096 1.074 322.9 nan -6.75   
    156 3_ethylphenol m_156 122.16 1.0283 293.15 16.2524 -6.25   
    157 3_ethylpyridine m_157 107.1536 0.891 349.15 10.6597 -4.59   
-   158 3_formylpyridine m_158 107.1103 1.126 298.15 0 -7.1   
-   159 3_hydroxybenzaldehyde m_159 122.118 1.138 379.13 0 -9.5   
-   160 3_methoxyaniline m_160 123.153 9 298.15 0 -7.29   
+   158 3_formylpyridine m_158 107.1103 1.126 298.15 nan -7.1   
+   159 3_hydroxybenzaldehyde m_159 122.118 1.138 379.13 nan -9.5   
+   160 3_methoxyaniline m_160 123.153 nan 298.15 nan -7.29   
    161 3_methoxyphenol m_161 124.134 1.131 298.15 15.4876 -7.66   
-   162 3_methyl_1h_indole m_162 131.175 1.079 368.22 0 -5.88   
+   162 3_methyl_1h_indole m_162 131.175 1.079 368.22 nan -5.88   
    163 3_methyl_but_1_ene m_163 70.134 0.66804 252.15 6.28585 1.83   
    164 3_methylbutan_1_ol m_164 88.146 0.81 298.15 13.5158 -4.42   
-   165 3_methylbutan_2_one m_165 86.13 9 298.15 9.11168 -3.24   
+   165 3_methylbutan_2_one m_165 86.13 nan 298.15 9.11168 -3.24   
    166 3_methylbutanoic_acid m_166 102.13 0.926 298.15 14.6272 -6.09   
    167 3_methylheptane m_167 114.229 0.7017 298.15 9.5196 2.97   
    168 3_methylhexane m_168 100.202 0.684 298.15 8.3772 2.71   
    169 3_methylpentane m_169 86.175 0.6598 298.15 7.2347 2.51   
    170 3_methylpyridine m_170 93.1269 0.952 298.15 10.6119 -4.77   
-   171 3_nitroaniline m_171 138.1244 15.51147 298.15 0 -8.84   
-   172 3_nitrophenol m_172 139.1091 1.2797 373.15 0 -9.62   
+   171 3_nitroaniline m_171 138.1244 15.51147 298.15 nan -8.84   
+   172 3_nitrophenol m_172 139.1091 1.2797 373.15 nan -9.62   
    173 3_nitrotoluene m_173 137.1364 1.158 293.15 12.5297 -3.45   
-   174 3_phenylpropanol m_174 136.186 9 298.15 0 -6.92   
-   175 4_acetylpyridine m_175 121.137 9 298.15 0 -7.62   
+   174 3_phenylpropanol m_174 136.186 nan 298.15 nan -6.92   
+   175 4_acetylpyridine m_175 121.137 nan 298.15 nan -7.62   
    176 4_bromophenol m_176 173.007 1.84 298.15 14.05 -7.54   
    177 4_bromotoluene m_177 171.0349 1.3553 337.15 11.2811 -1.39   
-   178 4_chloro_3_methylphenol m_178 142.583 9 298.15 0 -8.7   
+   178 4_chloro_3_methylphenol m_178 142.583 nan 298.15 nan -8.7   
    179 4_chloroaniline m_179 127.5716 1.1398 378.15 12.4761 -5.9   
    180 4_chlorophenol m_180 128.5563 1.2506 338.15 12.7895 -7.03   
-   181 4_cyanophenol m_181 119.121 9 298.15 0 -10.17   
-   182 4_cyanopyridine m_182 104.1096 9 298.15 0 -6.02   
+   181 4_cyanophenol m_181 119.121 nan 298.15 nan -10.17   
+   182 4_cyanopyridine m_182 104.1096 nan 298.15 nan -6.02   
    183 4_ethylphenol m_183 122.16 0.946 373.15 14.0535 -6.13   
    184 4_ethylpyridine m_184 107.1536 0.8936 348.15 10.827 -4.73   
    185 4_ethyltoluene m_185 120.194 0.857 298.15 11.1377 -0.95   
    186 4_fluorophenol m_186 112.102 1.125 375.15 11.6635 -6.19   
-   187 4_formylpyridine m_187 107.1103 9 298.15 0 -7   
+   187 4_formylpyridine m_187 107.1103 nan 298.15 nan -7   
    188 4_hydroxybenzaldehyde m_188 122.118 1.1253 409.15 17.2801 -8.83   
    189 4_isopropyltoluene m_189 134.221 0.852 298.15 11.6874 -0.68   
    190 4_methoxyacetophenone m_190 150.17 1.0738 322.15 15.8939 -4.4   
-   191 4_methoxyaniline m_191 123.153 1.0682 330.96 0 -7.48   
-   192 4_methyl_1h_imidazole m_192 82.1042 1.02 298.15 0 -10.27   
-   193 4_methylacetophenone m_193 134.17 9 303.15 14.2447 -4.7   
+   191 4_methoxyaniline m_191 123.153 1.0682 330.96 nan -7.48   
+   192 4_methyl_1h_imidazole m_192 82.1042 1.02 298.15 nan -10.27   
+   193 4_methylacetophenone m_193 134.17 nan 303.15 14.2447 -4.7   
    194 4_methylbenzaldehyde m_194 120.144 1.009 298.15 12.6827 -4.27   
    195 4_methylpentan_2_ol m_195 102.172 0.804 298.15 13.3628 -3.73   
    196 4_methylpentan_2_one m_196 100.156 0.7965 298.15 10.1427 -3.05   
    197 4_methylpyridine m_197 93.1269 0.95 298.15 10.7075 -4.93   
    198 4_nitroaniline m_198 138.1244 1.44 488.15 18.6185 -10.27   
-   199 4_nitrophenol m_199 139.1091 9 298.15 0 -10.64   
-   200 4_n_propylphenol m_200 136.186 0.983 298.15 0 -5.9   
-   201 4_tert_butylphenol m_201 150.212 0.908 298.15 0 -5.91   
+   199 4_nitrophenol m_199 139.1091 nan 298.15 nan -10.64   
+   200 4_n_propylphenol m_200 136.186 0.983 298.15 nan -5.9   
+   201 4_tert_butylphenol m_201 150.212 0.908 298.15 nan -5.91   
    202 acenaphthene m_202 154.21 1.1424 383.15 14.412 -3.15   
    203 acetaldehyde m_203 44.052 0.7906 283.15 6.59656 -3.5   
    204 acetic_acid m_204 60.052 1.0446 298.15 12.3327 -6.69   
@@ -204,7 +205,7 @@
    211 anthracene m_211 178.233 0.9595 511.15 14.5076 -3.95   
    212 azetidine m_212 57.0948 0.848 288.15 7.79159 -5.56   
    213 benzaldehyde m_213 106.118 1.0401 298.15 11.7352 -4.02   
-   214 benzamide m_214 121.137 1.0792 403.15 0 -11   
+   214 benzamide m_214 121.137 1.0792 403.15 nan -11   
    215 benzene m_215 78.114 0.873 298.15 8.08795 -0.86   
    216 benzonitrile m_216 103.1216 0.9856 316.15 11.7352 -4.1   
    217 benzotrifluoride m_217 146.1101 1.18 298.15 8.99 -0.25   
@@ -249,7 +250,7 @@
    256 decan_2_one m_256 156.26 0.8198 298.15 14.5554 -2.34   
    257 dibromomethane m_257 173.8347 2.482 298.15 8.84321 -1.96   
    258 dichloromethane m_258 84.9321 1.3183 298.15 6.98705 -1.31   
-   259 diethoxymethoxybenzene m_259 196.238 9 298.15 0 -5.23   
+   259 diethoxymethoxybenzene m_259 196.238 nan 298.15 nan -5.23   
    260 diethylamine m_260 73.1375 0.7017 298.15 7.45698 -4.07   
    261 diethyl_disulfide m_261 122.2548 0.988 298.15 10.8031 -1.64   
    262 diethyl_ether m_262 74.12 0.7082 298.15 6.50096 -1.59   
@@ -275,8 +276,8 @@
    283 E_12_dichloroethene m_283 96.9428 1.245 298.15 7.19407 -0.78   
    284 E_but_2_enal m_284 70.088 0.8219 320.15 8.74761 -4.22   
    285 E_hept_2_ene m_285 98.188 0.697 298.15 8.60421 1.68   
-   286 E_hex_2_enal m_286 98.14 9 298.15 0 -3.68   
-   287 E_oct_2_enal m_287 126.192 9 298.15 0 -3.43   
+   286 E_hex_2_enal m_286 98.14 nan 298.15 nan -3.68   
+   287 E_oct_2_enal m_287 126.192 nan 298.15 nan -3.43   
    288 ethanamide m_288 59.0675 0.9986 358.15 14.3325 -9.71   
    289 ethane m_289 30.069 0.5439 184.55 3.53 1.83   
    290 ethanethiol m_290 62.1354 0.8315 298.15 6.54554 -1.14   
@@ -313,8 +314,8 @@
    321 hexanal m_321 100.156 0.81 298.15 10.1099 -2.81   
    322 hexanoic_acid m_322 116.156 0.9212 298.15 17.0411 -6.21   
    323 hydrazine m_323 32.0454 1.02 303.15 10.6358 -9.3   
-   324 hydrogen_sulfide m_324 34.081 1.03 298.15 0 -1.17   
-   325 imidazole m_325 68.0775 9 298.15 0 -9.63   
+   324 hydrogen_sulfide m_324 34.081 1.03 298.15 nan -1.17   
+   325 imidazole m_325 68.0775 nan 298.15 nan -9.63   
    326 indane m_326 118.178 0.96 298.15 11.7113 -1.46   
    330 isoamyl_acetate m_330 130.182 0.8665 298.15 11.0899 -2.21   
    331 isoamyl_formate m_331 116.156 0.8744 298.15 9.913 -2.13   
@@ -328,15 +329,15 @@
    339 isopropylbenzene m_339 120.193 0.864 298.15 10.7839 -0.3   
    340 isopropyl_formate m_340 88.106 0.8728 293.15 7.73375 -2.02   
    341 E-but-2-ene m_341 70.134 0.6431 298.15 6.38145 1.34   
-   342 acetylene m_342 26.036 9 298.15 0 -0.01   
+   342 acetylene m_342 26.036 nan 298.15 nan -0.01   
    343 dimethylacetamide m_343 87.1209 0.9372 298.15 11.9981 -8.5   
    344 N-methylformamide m_344 59.0675 1.005 298.15 13.4321 -10   
    345 propanamide m_345 73.0942 0.9262 383.15 14.412 -9.41   
-   346 1-methyl-2-pyridone m_346 109.1263 9 368.15 14.3881 -10   
-   347 4-methylimidazole m_347 82.1042 9 298.15 0 -10.25   
-   348 1-propylguanidine m_348 101.1509 9 298.15 0 -10.92   
+   346 1-methyl-2-pyridone m_346 109.1263 nan 368.15 14.3881 -10   
+   347 4-methylimidazole m_347 82.1042 nan 298.15 nan -10.25   
+   348 1-propylguanidine m_348 101.1509 nan 298.15 nan -10.92   
    349 2-7-dimethylnaphtalene m_349 156.227 0.9141 400.15 13.695 -2.63   
-   350 acenaphthylene m_350 152.184 9 298.15 0 -3.15   
+   350 acenaphthylene m_350 152.184 nan 298.15 nan -3.15   
    351 1-butene-3-yne m_351 52.076 0.7094 273.15 5.7586 0.04   
    352 1-propen-3-ol m_352 58.0795 0.85 298.15 10.1513 -5.08   
    353 hexamethylethane m_353 236.7376 1.624 475.15 9.63193 1.23   
@@ -350,15 +351,15 @@
    361 1-nitrobutane m_361 103.1203 0.97 298.15 11.2333 -3.08   
    362 1-nitropropane m_362 89.0936 0.9961 298.15 10.4924 -3.34   
    363 2-nitropropane m_363 89.0936 0.9821 298.15 9.77533 -3.14   
-   364 2-nitrophenol m_364 139.1091 9 298.15 0 -9.63   
+   364 2-nitrophenol m_364 139.1091 nan 298.15 nan -9.63   
    365 nitrobenzene m_365 123.1097 1.199 298.15 13.1453 -4.12   
    366 nitroethane m_366 75.0669 0.9932 339.15 9.22562 -3.71   
    367 hexafluoroisopropanol m_367 168.0379 1.4528 298.15 9.94264 -3.77   
    368 propylthiopropane m_368 159.0782 1.2651 303.15 14.2447 -3.92   
-   369 2-2-2-trifluoroethylvinylether m_369 0 9 298.15 0 -1.06   
+   369 2-2-2-trifluoroethylvinylether m_369 nan nan 298.15 nan -1.06   
    370 m_bis_trifluoromethyl__benzene m_370 214.1078 1.378 298.15 10.13384 -2.3   
    371 m_cresol m_371 108.134 1.0298 298.15 15.1434 -5.49   
-   373 methanesulfonyl_chloride m_373 114.551 1.48 298.15 0 -1.39   
+   373 methanesulfonyl_chloride m_373 114.551 1.48 298.15 nan -1.39   
    374 methanethiol m_374 48.1087 0.9017 268.15 6.14245 -1.24   
    375 methanol m_375 32.042 0.7874 298.15 9.01052 -5.1   
    376 methoxyflurane m_376 164.9657 1.428 294.15 9.63193 -1.12   
@@ -368,9 +369,9 @@
    380 methyl_butanoate m_380 102.13 0.893 298.15 9.38815 -2.83   
    381 methyl_chloroacetate m_381 108.5236 1.229 298.15 11.1616 -4   
    382 methyl_cyanoacetate m_382 99.0883 1.1225 298.15 14.6941 -6.72   
-   383 methyl_cyclohexanecarboxylate m_383 142.192 9 298.15 0 -3.3   
+   383 methyl_cyclohexanecarboxylate m_383 142.192 nan 298.15 nan -3.3   
    384 methylcyclohexane m_384 98.188 0.766 298.15 8.4512 1.7   
-   385 methyl_cyclohexyl_ketone m_385 126.192 9 298.15 0 -3.9   
+   385 methyl_cyclohexyl_ketone m_385 126.192 nan 298.15 nan -3.9   
    386 methylcyclopentane m_386 84.161 0.745 298.15 7.56 1.59   
    387 methyl_cyclopropanecarboxylate m_387 100.114 0.98 298.15 9.87094 -4.1   
    388 methyl_cyclopropyl_ketone m_388 84.114 0.894 298.15 9.41683 -4.61   
@@ -379,19 +380,19 @@
    391 methyl_formate m_391 60.052 0.972 293.3 6.85229 -2.78   
    392 methyl_hexanoate m_392 130.182 0.88 298.15 11.4818 -2.49   
    393 methyl_isopropyl_ether m_393 74.12 0.7135 298.15 6.31214 -2.01   
-   394 methyl_methanesulfonate m_394 110.132 9 298.15 0 -2.73   
+   394 methyl_methanesulfonate m_394 110.132 nan 298.15 nan -2.73   
    395 methyl_octanoate m_395 158.234 0.873 298.15 13.5994 -2.04   
    396 methyl_pentanoate m_396 116.156 0.89 298.15 10.5402 -2.56   
-   397 methyl_p_methoxybenzoate m_397 166.17 9 397.15 14.6033 -5.33   
-   398 methyl_p_nitrobenzoate m_398 181.1459 9 298.15 0 -6.88   
+   397 methyl_p_methoxybenzoate m_397 166.17 nan 397.15 14.6033 -5.33   
+   398 methyl_p_nitrobenzoate m_398 181.1459 nan 298.15 nan -6.88   
    399 methyl_propanoate m_399 88.106 0.909 298.15 8.56836 -2.93   
    400 methyl_propyl_ether m_400 74.12 0.7225 298.15 6.58939 -1.66   
    401 methyl_tert_butyl_ether m_401 88.146 0.7353 298.15 7.12476 -2.21   
-   402 methyl_trifluoroacetate m_402 128.0499 9 298.15 0 -1.29   
+   402 methyl_trifluoroacetate m_402 128.0499 nan 298.15 nan -1.29   
    403 methyl_trimethylacetate m_403 116.156 0.868 298.15 9.26386 -2.4   
    404 morpholine m_404 87.1209 0.996 298.15 10.7553 -7.17   
    405 m_xylene m_405 106.167 0.861 298.15 10.1936 -0.83   
-   406 N_acetylpyrrolidine m_406 113.1583 9 298.15 0 -9.8   
+   406 N_acetylpyrrolidine m_406 113.1583 nan 298.15 nan -9.8   
    407 naphthalene m_407 128.174 0.9688 367.15 12.0937 -2.4   
    408 n_butane m_408 58.122 0.6013 272.65 5.37 2.07   
    409 n_butanethiol m_409 90.1888 0.837 298.15 8.72371 -0.99   
@@ -412,15 +413,15 @@
    424 N_methylacetamide m_424 73.0942 0.8973 368.15 12.7868 -10   
    425 N_methylaniline m_425 107.1536 0.9623 324.15 12.8107 -4.69   
    426 N_methylmorpholine m_426 101.1476 0.915 298.15 9.46463 -6.32   
-   427 N_methyl_N__222_trifluoroethyl__aniline m_427 0 9 298.15 0 0.5   
-   428 N_methylpiperazine m_428 100.1629 9 289.15 11.1616 -7.77   
+   427 N_methyl_N__222_trifluoroethyl__aniline m_427 nan nan 298.15 nan 0.5   
+   428 N_methylpiperazine m_428 100.1629 nan 289.15 11.1616 -7.77   
    429 N_methylpiperidine m_429 99.1749 0.812 298.15 8.77151 -3.88   
    430 NN_dimethylaniline m_430 121.1803 0.9495 298.15 12.8841 -3.45   
-   431 NN_dimethylbenzamide m_431 149.1904 9 298.15 "56.5 kj/mol-¹" -9.29   
+   431 NN_dimethylbenzamide m_431 149.1904 nan 298.15 13.5 -9.29   
    432 NN_dimethylformamide m_432 73.0942 0.9445 298.15 11.2094 -7.81   
-   433 NN_dimethyl_p_methoxybenzamide m_433 179.2165 9 298.15 0 -11.01   
-   434 NN_dimethyl_p_methylbenzamide m_434 163.2171 9 298.15 0 -9.76   
-   435 NN_dimethyl_p_nitrobenzamide m_435 194.1879 9 298.15 0 -11.95   
+   433 NN_dimethyl_p_methoxybenzamide m_433 179.2165 nan 298.15 nan -11.01   
+   434 NN_dimethyl_p_methylbenzamide m_434 163.2171 nan 298.15 nan -9.76   
+   435 NN_dimethyl_p_nitrobenzamide m_435 194.1879 nan 298.15 nan -11.95   
    436 n_nonane m_436 128.255 0.7138 298.15 11.097 3.13   
    437 n_octane m_437 114.229 0.6986 298.15 9.914 2.88   
    438 n_octylamine m_438 129.2443 0.7789 298.15 13.0497 -3.65   
@@ -467,9 +468,9 @@
    479 pentanoic_acid m_479 102.13 0.9339 298.15 14.914 -6.16   
    480 phenanthrene m_480 178.233 1.05 398.15 17.2562 -3.88   
    481 phenol m_481 94.108 1.044 329.15 13.7189 -6.61   
-   482 phenyl_formate m_482 122.118 1.108 298.15 0 -3.82   
+   482 phenyl_formate m_482 122.118 1.108 298.15 nan -3.82   
    483 phenyl_methyl_sulfide m_483 124.2049 1.0535 298.15 12.0937 -2.73   
-   484 phenyl_trifluoroethyl_ether m_484 162.1092 1.293 298.15 0 0.1   
+   484 phenyl_trifluoroethyl_ether m_484 162.1092 1.293 298.15 nan 0.1   
    485 piperazine m_485 86.1362 1.1 400.15 10.3585 -7.4   
    486 piperidine m_486 85.1482 0.8606 293.15 9.16287 -5.11   
    487 prop_2_en_1_ol m_487 58.078 0.85 298.15 10.7075 -5.03   
@@ -484,14 +485,14 @@
    496 propyne m_496 40.065 0.68168 242.15 5.49713 -0.48   
    497 p_toluidine m_497 107.1536 0.9559 330.15 13.1214 -5.57   
    498 p_xylene m_498 106.167 0.858 298.15 10.1291 -0.8   
-   499 pyrene m_499 202.24 1.27 298.15 0 -4.52   
+   499 pyrene m_499 202.24 1.27 298.15 nan -4.52   
    500 pyridine m_500 79.1002 0.9774 298.15 9.60803 -4.69   
    501 pyrrole m_501 67.0895 0.9698 293.15 10.9656 -4.78   
    502 pyrrolidine m_502 71.1215 0.8586 293.15 9.137 -5.48   
    503 quinoline m_503 129.159 1.0895 298.15 14.2279 -5.72   
    504 sec_butylbenzene m_504 134.221 0.858 298.15 11.4675 -0.45   
    505 styrene m_505 104.152 0.9016 298.15 10.3967 -1.24   
-   506 teflurane m_506 180.927 1.692 298.15 0 0.08   
+   506 teflurane m_506 180.927 1.692 298.15 nan 0.08   
    507 tert_butylbenzene m_507 134.221 0.863 298.15 11.403 -0.44   
    508 tetrachloroethene m_508 165.8322 1.623 293.15 9.479 0.1   
    509 tetrachloromethane m_509 153.8215 1.584 298.15 7.74379 0.08   
@@ -515,5 +516,5 @@
    527 undecan_2_one m_527 170.286 0.822 298.15 16.0134 -2.15   
    528 Z_12_dichloroethene m_528 96.9428 1.2767 298.15 7.54095 -1.17   
    529 Z_pent_2_ene m_529 70.134 0.65 298.15 6.40535 1.31   
-   530 tetradecane m_530 198.388 0.7593 298.15 16.9909 0.0    
-   531 pentadecane m_531 212.415 0.765 298.15 18.2098 0.0  
+   530 tetradecane m_530 198.388 0.7593 298.15 16.9909 nan    
+   531 pentadecane m_531 212.415 0.765 298.15 18.2098 nan 
