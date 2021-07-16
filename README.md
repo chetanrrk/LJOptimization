@@ -24,7 +24,13 @@ Contains scripts to optimize the LJ parameters
 
 10) vdw-to-fit.txt: example input to define bounds for the parameters (see below)
 
-11) SI: folders containing supplementary info about
+11) ff_to_opt: contains the force field files
+
+12) psfs: contains the psfs of the molecules 
+
+13) eval_energy_for_reweight: contains CHARMM script to evaluate the energy given a trajectory
+
+14) SI: folders containing supplementary info about
 
 	a) feh.xlsx: optimized and scaled FEH
 

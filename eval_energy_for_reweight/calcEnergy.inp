@@ -1,0 +1,47 @@
+* Read topology and parameter files
+*
+
+bomlev -2
+
+stream @mol/@ff 
+
+open read unit 10 card name ../psfs/@m_drude.xplor.psf
+read psf  unit 10 card
+
+open read unit 10 card name ../pdbs/@m.1.pdb
+read coor pdb unit 10 resid
+close unit 10
+
+! Setup PBC (Periodic Boundary Condition)
+stream @mol/pbcsetup.str
+
+open read unit 10 card name crystal_image.str
+CRYSTAL DEFINE @XTLtype @A @B @C @alpha @beta @gamma
+CRYSTAL READ UNIT 10 CARD
+
+!Image centering by residue
+IMAGE BYRES XCEN @xcen YCEN @ycen ZCEN @zcen sele segid BULK end
+IMAGE BYRES XCEN @xcen YCEN @ycen ZCEN @zcen sele segid SOLU end
+
+coor shake
+
+open read file unit 1 name npt-box.dcd !the trajectory that's generated
+
+set i = 1
+label loop
+if i eq 1 read coord file ifile  1 unit 1
+if i gt 1 read coord file ifile -1 unit 1
+
+ENERGY vdw vatom vswitch cutim 16.0 ihbfrq 0 inbfrq 10 imgfrq -1   -
+       EWALD PMEWald spline KAPPa @kap ORDEr @ord -
+       FFTX @fftx FFTY @ffty FFTZ @fftz switch atom cdiel -
+       CTOFNB 12.0 CTONNB 10.0 CUTNB 16.0 -
+       LRC
+
+
+incr i by 1
+if i le 2000001 goto loop
+
+STOP
+
+
