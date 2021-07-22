@@ -8,5 +8,5 @@
 #SBATCH -o opt.out
 #SBATCH -e opt.err
 
-../non_halo_code/optimizeLennardJones lj-sim-blues-working.py
+../non_halo_code/optimizeLennardJones lj-opt.py 
 
